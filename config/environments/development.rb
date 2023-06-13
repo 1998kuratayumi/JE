@@ -36,7 +36,7 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
 
 
-  # config.action_mailer.default_url_options = { host: 'https://5bfa1a5d162349d0a5a99dd6164e018d.vfs.cloud9.ap-northeast-1.amazonaws.com' } #cloud9を開発環境にしている場合のhost例
+  config.action_mailer.default_url_options = {  host: 'localhost', port: 3000 } #cloud9を開発環境にしている場合のhost例
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
