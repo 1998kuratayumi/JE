@@ -57,3 +57,6 @@ gem 'devise'
 gem 'rails-i18n'
 gem 'devise-i18n'
 gem 'jquery-rails'
+gem 'jp_prefecture'
+gem 'dotenv-rails'
+gem "geocoder"
